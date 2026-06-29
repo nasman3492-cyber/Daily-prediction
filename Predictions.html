@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Predictions - NASIR PREDICTIONS</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #0b1220;
+    color: white;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    background: rgba(0,0,0,0.7);
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    color: #22c55e;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #22c55e;
+}
+
+/* TITLE */
+.title {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.title h1 {
+    font-size: 32px;
+    color: #22c55e;
+}
+
+.title p {
+    color: #cbd5e1;
+    margin-top: 10px;
+}
+
+/* CARDS */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #22c55e;
+}
+
+.card h3 {
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #e2e8f0;
+}
+
+/* TAG */
+.tag {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    background: #22c55e;
+    color: black;
+    font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background: rgba(0,0,0,0.7);
+    font-size: 14px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title h1 {
+        font-size: 24px;
+    }
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+    <div class="logo">⚽ NASIR PREDICTIONS</div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="predictions.html">Predictions</a>
+    </nav>
+</header>
+
+<section class="title">
+    <h1>TODAY'S MATCH PREDICTIONS</h1>
+    <p>Daily accurate football tips & analysis</p>
+</section>
+
+<section class="container">
+
+    <div class="card">
+        <h3>Arsenal vs Chelsea</h3>
+        <p>Prediction: Both Teams To Score</p>
+        <span class="tag">SAFE</span>
+    </div>
+
+    <div class="card">
+        <h3>Real Madrid vs Barcelona</h3>
+        <p>Prediction: Over 2.5 Goals</p>
+        <span class="tag">HOT</span>
+    </div>
+
+    <div class="card">
+        <h3>Man City vs Liverpool</h3>
+        <p>Prediction: Man City Win</p>
+        <span class="tag">RISKY</span>
+    </div>
+
+    <div class="card">
+        <h3>PSG vs Marseille</h3>
+        <p>Prediction: PSG Win</p>
+        <span class="tag">SAFE</span>
+    </div>
+
+</section>
+
+<footer>
+    © 2026 NASIR PREDICTIONS | Telegram: @nas_irrx
+</footer>
+
+</body>
+</html>
